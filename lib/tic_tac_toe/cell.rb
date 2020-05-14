@@ -1,8 +1,8 @@
 module TicTacToe
-  class Square
+  class Cell
     attr_accessor :value
     def initialize(value = "\s")
-      @value = "\s"
+      @value = value
     end
     def to_s
       @value
