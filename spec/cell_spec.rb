@@ -4,9 +4,9 @@ module TicTacToe
   describe Cell do
  
     context "#initialize" do
-      it "is initialized with a value of " " by default" do
+      it "is initialized with a value of "" by default" do
         cell = Cell.new
-        expect(cell.value).to eq "\s"
+        expect(cell.value).to eq ""
       end
       it "can be initialize with a value of X" do
         cell = Cell.new("X")
